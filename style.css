@@ -1,0 +1,259 @@
+ *{
+    margin: 0px;
+ }
+ .block1{
+    width: 100%;
+    height: 80px;
+    background-image: url(/koritychi/bac1.png);
+ }
+ .block1_main img{
+width:200px;
+margin: 10px 70px;
+margin-top: -15px;
+margin-left: 30px;
+ }
+ .block1_main{
+    display: flex;
+    position: relative;
+    top: 30px;
+    color: rgb(197, 195, 195);
+    
+ }
+ .block1_main p{
+   font-size: 13px;
+   font-family: sans-serif;
+ }
+ .ref{
+   margin-left: 860px;
+   color: #fff;
+   font-size: 13px;
+   position: relative;
+   bottom: 15px;
+   left: -60px;
+   font-family: sans-serif;
+ }
+ .fred{
+   padding-left: 30px;
+ }
+ .ferd{
+   padding-left: 30px;
+ }
+ .mik{
+   padding-left:  30px;
+ }
+ .min{
+   padding-left: 30px;
+ }
+ .mak{
+   padding-left: 30px;
+ }
+ .lop{
+   display: none;
+ }
+ .block2{
+   width: 100%;
+   height: 400px;
+   text-align: center;
+   background-image: url(/koritychi/bac.png);
+   h1{
+      padding-top: 120px;
+      color: #fff;
+      font-size: 30px;
+      font-family: sans-serif;
+      padding-bottom: 20px;
+   }
+   p{
+      color: #fff;
+      font-size: 13px;
+      font-family: sans-serif;
+      padding-bottom: 20px;
+   }
+   button{
+      width: 150px;
+      margin-left: -210px;
+      height: 30px;
+      font-family: sans-serif;
+      font-size: 13px;
+      border: none;
+      border-color: #fff;
+      font-weight: 600;
+   }
+   .kil{
+      margin-left: 80px;
+      margin-top: -22px;
+   }
+   .pok{
+      width: 45px;
+      margin-left: 860px;
+      margin-top: 45px;
+   }
+   .pop{
+      display: none;
+   }
+ }
+ .block3{
+     width: 100%;
+     height: 770px;
+     background-image: url(/koritychi/bac2.png);
+     .kalon{
+      width: 250px;
+      margin: 40px 150px;
+     }
+     .nack{
+       font-size: 25px;
+       font-family: sans-serif;
+       font-weight: 700;
+       margin-left: 550px;
+       margin-top: -260px;
+     }
+     .byt{
+      margin-left: 550px;
+      margin-top: 15px;
+      font-size: 16px;
+      font-family: sans-serif;
+     }
+     p{
+      font-size: 10px;
+      margin-left: 550px;
+      margin-top: 12px;
+      font-family: sans-serif;
+      color: gray;
+     }
+     .res{
+      width: 320px;
+      margin-left: 535px;
+      margin-top: 190px;
+     }
+     .bed{
+      width: 255px;
+      margin-left: 568px;
+      position: relative;
+      bottom: 185px;
+     }
+     .kim{
+       font-size: 20px;
+       font-family: sans-serif;
+       margin-left: 30px;
+       position: relative;
+       bottom: 380px;
+     }
+     .nik{
+      width: 10px;
+      margin-left: 30px;
+      position: relative;
+      bottom: 330px;
+     }
+     .book{
+        margin-left: 60px;
+        position: relative;
+        bottom: 375px;
+     }
+     .niq{
+      width: 10px;
+      margin-left: 30px;
+      position: relative;
+      bottom: 380px;
+     }
+     .ser{
+      margin-left: 60px;
+      position: relative;
+      bottom: 360px;
+     }
+     .top{
+      position: relative;
+      left: -490px;
+      bottom: 355px;
+     }
+ }
+ 
+
+ @media (max-width:412px) {
+   .block1 p{
+      display: none;
+   }
+   .lop{
+      display: block;
+      width: 10px;
+   }
+   .pol{
+      width: 70px;
+   }
+   .pop{
+      display: none;
+   }
+   .block2{
+      width: auto;
+      height: 400px;
+      h1{
+         font-size: 140%;
+      }
+      .kil{
+         display: none;
+      }
+      p{
+         font-size: 16px;
+         padding: 10px 20px;
+      }
+      button{
+         margin-left: 20px;
+      }
+      .pok{
+         display: none;
+      
+      }
+      .pop{
+      display: block;
+      width: 35px;
+      margin-left: 320px;
+      }
+      
+      
+    }
+    .block3{
+      width: 100%;
+      height: auto;
+      flex-wrap: wrap-reverse;
+      .kalon{
+         width: 160px;
+         height: auto;
+         margin-top: 290px;
+         margin-left: 90px;
+      }
+
+      .nack{
+         font-size: 25px;
+         margin: 0px;
+         margin-left: 70px;
+         margin-top: -420px;
+      }
+      .byt{
+         margin: 0px;
+         margin-left: 70px;
+         margin-top: 20px;
+      }
+      .ok{
+         margin: 0px;
+         font-size: 11px;
+         margin-left: 70px;
+         margin-top: 10px;
+      }
+      .res{
+         position: relative;
+         top: 370px;
+         left: -500px;
+      }
+      .bed{
+         position: relative;
+         top: 185px;
+         left: -500px;
+      }
+      .kim{
+         margin-top: 90px;
+      }
+      .top{
+         position: relative;
+          bottom: 300px;
+          margin: 0px;
+      }
+   }
+ }
